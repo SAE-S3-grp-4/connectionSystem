@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 // Si l'utilisateur est déjà connecté, on le redirige vers la page d'accueil
 if (isset($_SESSION['user'])) {
     header('Location: index.php');
